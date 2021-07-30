@@ -4,6 +4,10 @@
 # Emacs tilde
 *~
 
+# AWS Elastic Beanstalk (EB)
+# https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create_deploy_nodejs_express.html
+.elasticbeanstalk/
+
 # ENVIRONMENT Variables for app:
 /src/environments
 
