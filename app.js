@@ -19,7 +19,12 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
+
+// Comment out, per tutorial
+// We now instead use ./.ebextensions/staticfiles.config
+/*
 app.use(express.static(path.join(__dirname, 'public')));
+*/
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
